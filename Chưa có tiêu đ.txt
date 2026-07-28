@@ -1,0 +1,1 @@
+local function _0x23cf24(_b,_k) local _s={} for _i=1,#_b do _s[_i]=string.char(bit32.bxor(_b[_i],_k)) end return table.concat(_s) end local function _0xb4729b(_a,_k) return bit32.bxor(_a,_k) end print(_0x23cf24({251,227,254,231,255},140))
